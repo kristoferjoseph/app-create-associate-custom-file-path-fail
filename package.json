@@ -1,0 +1,37 @@
+{
+  "arc": {
+    "app": "begin-test-app",
+    "http": [
+      {
+        "/api": {
+          "method": "get",
+          "src": "api"
+        }
+      }
+    ]
+  },
+  "name": "app-create-associate-custom-file-path-fail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx sandbox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristoferjoseph/app-create-associate-custom-file-path-fail.git"
+  },
+  "keywords": [],
+  "author": "kj <kj@begin.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kristoferjoseph/app-create-associate-custom-file-path-fail/issues"
+  },
+  "homepage": "https://github.com/kristoferjoseph/app-create-associate-custom-file-path-fail#readme",
+  "dependencies": {
+    "@architect/sandbox": "^3.4.1"
+  },
+  "devDependencies": {
+    "@architect/architect": "^8.5.4"
+  }
+}
