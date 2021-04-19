@@ -1,15 +1,4 @@
 {
-  "arc": {
-    "app": "begin-test-app",
-    "http": [
-      {
-        "/api": {
-          "method": "get",
-          "src": "api"
-        }
-      }
-    ]
-  },
   "name": "app-create-associate-custom-file-path-fail",
   "version": "1.0.0",
   "description": "",
